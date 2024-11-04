@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Healthy Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        @keyframes change{
+            0%{
+                width: 100%;
+                height: 150px;
+                margin:0px;
+                background-color: #6494edff;
+                border-radius: 0px;
+            }100%{
+                width: 98%;
+                min-height: 98%;
+                overflow-y:auto;
+                margin: 1%;
+                background-color: rgba(100, 148, 237, 0.579);
+                border-radius: 10px;
+            }
+        }
+        @media (max-width: 1500px) {
+            .menubutton {
+                display: none;
+            }
+        }
+        @media (max-width: 1500px) {
+            .headgroup {
+                display: block;
+            }
+        }
+        .headgroup{
+            left:1%;
+            top:20%;
+        }
+        a{
+            text-decoration: none;
+        }
+        div.headbox:after{
+            top:1%;
+        }
+        .headbutton{
+            float:none;
+            display:block;
+            width: 300px;
+        }
+    </style>
+    <div class="headbox">
+        <img src = "logo.png">
+        <div class="headgroup">
+            <a href="/"><div class="headbutton">Home</div></a>
+            <a href="/healthadvice"><div class="headbutton">Health advice</div></a>
+            <a href="/olympics"><div class="headbutton">Olympic Recipe</div></a>
+            <a href="/fastfoods"><div class="headbutton">Healthy fast foods</div></a>
+            <a href="/design"><div class="headbutton">Design evaluation</div></a>
+            <a href="/lunch"><div class="headbutton">Healthy Lunch</div></a>
+            <a href="/sketch"><div class="headbutton">Sketch</div></a>
+        </div>
+        <div class="menubutton">Menu</div>
+        <h1 class="title">Healthy Eating</h1>
+        <h2 class="subtitle">Advice for adolescents</h2>
+    </div>
+</body>
+<script src="standardscript.js"></script>
+</html>
